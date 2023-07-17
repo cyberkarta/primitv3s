@@ -1,5 +1,7 @@
 #cloud #easy #s3 #aws #rce
 
+writeup by: twang
+
 
 # Steps
 1. Buat persiapan dengan memasukkan informasi hostname pada `/etc/hosts`
