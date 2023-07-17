@@ -1,4 +1,4 @@
-#easy #nosqli 
+easy #nosqli 
 
 
 # Header 1

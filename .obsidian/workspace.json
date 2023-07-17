@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Business CTF 2023/Untitled.md",
+                "file": "HTB Business CTF 2023/RED Miners.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21fd940e42e7c8a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB Business CTF 2023/Initialization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef916a913e1c08d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB Business CTF 2023/SCADA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Business CTF 2023/Untitled.md",
+                "file": "HTB Business CTF 2023/Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Business CTF 2023/Untitled.md",
+                "file": "HTB Business CTF 2023/Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Business CTF 2023/Untitled.md"
+                "file": "HTB Business CTF 2023/Initialization.md"
               }
             }
           }
@@ -146,10 +171,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cfe7bec1f780515",
+  "active": "21fd940e42e7c8a0",
   "lastOpenFiles": [
+    "HTB Business CTF 2023/attachments/Pasted image 20230717234357.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717234109.png",
+    "HTB Business CTF 2023/Drilling Platform.md",
+    "HTB Business CTF 2023/Initialization.md",
+    "HTB Business CTF 2023/Lazy Ballot.md",
+    "HTB Business CTF 2023/README.md",
+    "HTB Business CTF 2023/RED Miners.md",
+    "HTB Business CTF 2023/SCADA.md",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717225149.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717225137.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717224125.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717224119.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717223526.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717222613.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717222602.png",
+    "HTB Business CTF 2023/attachments/Pasted image 20230717222558.png",
+    "HTB Business CTF 2023/attachments",
     "HTB Business CTF 2023/Web_Example.md",
-    "HTB Business CTF 2023/Untitled.md",
     "HTB Business CTF 2023"
   ]
 }
