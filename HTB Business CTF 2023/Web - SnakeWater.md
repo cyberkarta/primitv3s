@@ -4,6 +4,7 @@
 # Persiapan
 Untuk mengerjakan CTF ini, kami menggunakan tool:
 - Ngrok
+- Python HTTP Server
 
 # Steps
 Website kali ini dibangun menggunakan bahasa Java. Dan berdasarkan isi dari `pom.xml`, kita dapat memastikan bahwa website menggunakan snake_yaml versi 1.33.
