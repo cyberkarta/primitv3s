@@ -1,6 +1,5 @@
-#cloud #easy #s3 #aws #rce
+#cloud #easy #s3 #aws #rce #writeup_twang 
 
-writeup by: twang
 
 
 # Steps
