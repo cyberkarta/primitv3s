@@ -1,3 +1,4 @@
+#forensic #writeup_djkampus 
 # Desc(Soalnya)
 Red Miners
 

@@ -59,3 +59,4 @@ bignote: pada saat event belum bisa solved huhuhuhu
 
 
 #easy #Blockchain
+#writeup_djkampus
