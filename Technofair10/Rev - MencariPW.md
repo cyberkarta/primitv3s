@@ -10,10 +10,10 @@
 # Solving Steps
 - Identifying the challenge
     - Dari attachment yang diberikan, kita bisa menggunakan software *detect it easy* untuk mencari tahu apa packer maupun compiler yang digunakan untuk mengcompile sebua executable.
-    ![Detect it easy](./attachments/MencariPW - die.png)
+![Detect it easy](./attachments/MencariPW-die.png)
 - Decompiling the executable
     - Setelah diketahui bahwa file tersebut adalah executable kode python yang di compile menggunakan packer PyInstaller. Kita dapat langsung mengextract pyinstaller archive menggunakan [PyInstaller Extractor](https://github.com/extremecoders-re/pyinstxtractor)
-    ![PyInsExtractor](./attachments/MencariPW - PyInstractor.png)
+![PyInsExtractor](./attachments/MencariPW-PyInstractor.png)
     - Kemudian kita bisa langsung mendecompile mencariPW.pyc menggunakan [pycdc](https://github.com/zrax/pycdc)
 - Analyzing the decompiled executable
     - Running the [pycdc](https://github.com/zrax/pycdc) we get
@@ -91,7 +91,9 @@ login_button.grid(3, 0, 2, 30, **('row', 'column', 'columnspan', 'pady'))
 frame.pack()
 window.mainloop()
 ```
-    - Dari kode berikut kita bisa lihat bahwa username credentials login adalah TechnoFairCTF dan password nya disusun dari array password. Bisa dilihat item dari array password berisi semua alphabet, sehingga kita bisa simpulkan bahwa string password adalah alphabet yang tidak ada pada item array password, dan jika semua alphabet ada di item tersebut, karakter password adalah “_”. Langsung saja kita buat solver nya.
+
+Dari kode berikut kita bisa lihat bahwa username credentials login adalah TechnoFairCTF dan password nya disusun dari array password. Bisa dilihat item dari array password berisi semua alphabet, sehingga kita bisa simpulkan bahwa string password adalah alphabet yang tidak ada pada item array password, dan jika semua alphabet ada di item tersebut, karakter password adalah “_”. Langsung saja kita buat solver nya.
+
 ```py
 import string
 password = [
@@ -132,5 +134,7 @@ for i in password:
 print(f"Password: {rlpassword}")
 print("Flag: TechnoFairCTF{" + rlpassword + "}")
 ```
+![Success](./attachments/MencariPW-success.png)
+
 # Flag
 **TechnoFairCTF{ini_adalah_password}**
